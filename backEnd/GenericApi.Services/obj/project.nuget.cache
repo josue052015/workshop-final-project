@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HdzdQmlL8gMt2dnsR+4dT01LFLUTKNDCihkt7eyF7Njo4a+Ykhwj/Lqwk/VMC772qUeodqrIyfdp1pdU0XUmeg==",
+  "dgSpecHash": "3nwhPh0RYA0tsgHjSvpAId8CVHtQxuI31BlFNn6SHpiF2z8Y4djsB2mLQwbVs6QaF2DDEL40a0WQzonBMI69eQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services\\GenericApi.Services.csproj",
+  "projectFilePath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services\\GenericApi.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAYMER\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\RAYMER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

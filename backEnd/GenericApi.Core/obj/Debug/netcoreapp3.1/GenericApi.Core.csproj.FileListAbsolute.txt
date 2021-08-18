@@ -7,3 +7,12 @@ C:\Users\RAYMER\Desktop\clonacionesGithub\proyectoFinal\SolvexWorkShops\GenericA
 C:\Users\RAYMER\Desktop\clonacionesGithub\proyectoFinal\SolvexWorkShops\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.csproj.CoreCompileInputs.cache
 C:\Users\RAYMER\Desktop\clonacionesGithub\proyectoFinal\SolvexWorkShops\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.dll
 C:\Users\RAYMER\Desktop\clonacionesGithub\proyectoFinal\SolvexWorkShops\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.pdb
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\bin\Debug\netcoreapp3.1\GenericApi.Core.deps.json
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\bin\Debug\netcoreapp3.1\GenericApi.Core.dll
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\bin\Debug\netcoreapp3.1\GenericApi.Core.pdb
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.csproj.AssemblyReference.cache
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.AssemblyInfoInputs.cache
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.AssemblyInfo.cs
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.csproj.CoreCompileInputs.cache
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.dll
+F:\workshop-final-project\workshop-final-project\backEnd\GenericApi.Core\obj\Debug\netcoreapp3.1\GenericApi.Core.pdb

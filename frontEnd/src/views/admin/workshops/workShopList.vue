@@ -25,10 +25,17 @@
           </p>
         </div>
       </template>
+      <template v-slot:startDate="{ row }">
+        <div>
+          <p>
+            {{ row.startDate.split("T")[0] }}
+          </p>
+        </div>
+      </template>
       <template v-slot:endDate="{ row }">
         <div>
           <p>
-            {{ row.endDate }}
+            {{ row.endDate.split("T")[0] }}
           </p>
         </div>
       </template>
@@ -65,8 +72,8 @@ export default class UserListComponent extends Mixins<
     description.customTemplate = true;
 
     let startDate = new BTableColumn("startDate", "Fecha de inicio");
-    description.sortable = false;
-    description.customTemplate = true;
+    startDate.sortable = false;
+    startDate.customTemplate = true;
 
     let endDate = new BTableColumn("endDate", "Fecha de término");
     endDate.sortable = false;

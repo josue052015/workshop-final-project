@@ -11,6 +11,10 @@ const item = {
     {
       path: "add",
       component: () => import("../views/admin/workshops/addWorkshop.vue")
+    },
+    {
+      path: "edit/:id",
+      component: () => import("../views/admin/workshops/editWorkshop.vue")
     }
      
   ],

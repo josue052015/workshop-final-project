@@ -1,6 +1,6 @@
 import { WeekDay, WorkShopDayMode } from './../utils/enums';
 import { IBaseEntity } from "./base.model";
-import { Workshop } from './workshop.model';
+import { WorkShop } from './workshop.model';
 
 export interface IWorkshopDay extends IBaseEntity {
     day: WeekDay;
@@ -9,6 +9,6 @@ export interface IWorkshopDay extends IBaseEntity {
     startHour: string;
     endHour: string | null;
     workShopId: number;
-    workShop: Workshop;
+    workShop: WorkShop;
 }
 

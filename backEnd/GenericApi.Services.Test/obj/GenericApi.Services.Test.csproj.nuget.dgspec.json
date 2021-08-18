@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj": {}
+    "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj": {
+    "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Bl\\GenericApi.Bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj",
+        "projectUniqueName": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Bl\\GenericApi.Bl.csproj",
         "projectName": "GenericApi.Bl",
-        "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj",
+        "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Bl\\GenericApi.Bl.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Bl\\obj\\",
+        "outputPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Bl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj": {
-                "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj"
+              "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Model\\GenericApi.Model.csproj": {
+                "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Model\\GenericApi.Model.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj": {
+    "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Core\\GenericApi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+        "projectUniqueName": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Core\\GenericApi.Core.csproj",
         "projectName": "GenericApi.Core",
-        "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+        "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Core\\GenericApi.Core.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Core\\obj\\",
+        "outputPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj": {
+    "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Model\\GenericApi.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj",
+        "projectUniqueName": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Model\\GenericApi.Model.csproj",
         "projectName": "GenericApi.Model",
-        "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj",
+        "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Model\\GenericApi.Model.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Model\\obj\\",
+        "outputPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -187,8 +187,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj": {
-                "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj"
+              "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Core\\GenericApi.Core.csproj": {
+                "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Core\\GenericApi.Core.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj": {
+    "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj",
+        "projectUniqueName": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj",
         "projectName": "GenericApi.Services.Test",
-        "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj",
+        "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services.Test\\GenericApi.Services.Test.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services.Test\\obj\\",
+        "outputPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -268,8 +268,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services\\GenericApi.Services.csproj": {
-                "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services\\GenericApi.Services.csproj"
+              "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services\\GenericApi.Services.csproj": {
+                "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services\\GenericApi.Services.csproj"
               }
             }
           }
@@ -328,14 +328,14 @@
         }
       }
     },
-    "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services\\GenericApi.Services.csproj": {
+    "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services\\GenericApi.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services\\GenericApi.Services.csproj",
+        "projectUniqueName": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services\\GenericApi.Services.csproj",
         "projectName": "GenericApi.Services",
-        "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services\\GenericApi.Services.csproj",
+        "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services\\GenericApi.Services.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Services\\obj\\",
+        "outputPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -359,8 +359,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj": {
-                "projectPath": "C:\\Users\\RAYMER\\Desktop\\clonacionesGithub\\proyectoFinal\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj"
+              "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Bl\\GenericApi.Bl.csproj": {
+                "projectPath": "F:\\workshop-final-project\\workshop-final-project\\backEnd\\GenericApi.Bl\\GenericApi.Bl.csproj"
               }
             }
           }

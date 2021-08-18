@@ -1,3 +1,4 @@
+import { WorkShop } from './workshop.model';
 import { IBase, IBaseEntity } from "./base.model";
 import {IDocument} from "./document.model";
 import { ChangePassword, User } from "./user.model";
@@ -7,5 +8,6 @@ export {
     IBaseEntity,
     IDocument,
     User,
-    ChangePassword
+    ChangePassword,
+    WorkShop
 }
