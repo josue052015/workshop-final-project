@@ -1,5 +1,31 @@
 <template>
   <div>
+    <div class="select">
+          <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3">
+            <template #trigger="">
+                <div
+                    class="card-header"
+                    role="button"
+                    aria-controls="contentIdForA11y3">
+                    <p class="card-header-title">
+                        Más opciones        
+                    </p>
+                   <div>
+                     <p>
+
+                     </p>
+                   </div>
+                </div>
+            </template>
+
+            <footer class="card-footer">
+                <a class="card-footer-item" href="/admin/members" >Miembros</a>
+                <a class="card-footer-item" href="/admin/workshopDays">Días</a>
+            </footer>
+        </b-collapse>
+    </div>
+     
+
     <sx-buefy-table :config="tableConfig">
       <template v-slot:name="{ row }">
         <div class="media">
@@ -39,7 +65,9 @@
           </p>
         </div>
       </template>
+      
     </sx-buefy-table>
+    
   </div>
 </template>
 <script lang="ts">
@@ -81,5 +109,17 @@ export default class UserListComponent extends Mixins<
 
     this.tableConfig.insertColumns(name, description, startDate, endDate);
   }
+  addMember(id: number){
+this.$router.push(`/admin/members/add/${id}`)
+  }
 }
 </script>
+<style>
+ .addMemberButton{
+  margin-left:86%; 
+margin-bottom: 5px;
+} 
+.select{
+  margin-bottom: 10px;
+}
+</style>

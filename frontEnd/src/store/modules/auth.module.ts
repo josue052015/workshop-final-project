@@ -7,8 +7,8 @@ const authModule: Module<any, any> = {
     state: {
         user: {
             id:1,
-            name: 'Emmanuel',
-            lastName: 'Jimenez',
+            name: 'Pedro',
+            lastName: 'Rodriguez',
             userName: 'admin',
             userRole: UserRole.ADMIN
         } as User,

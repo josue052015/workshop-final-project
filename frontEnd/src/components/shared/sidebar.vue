@@ -31,7 +31,7 @@
               icon="certificate"
               label="Mis talleres"
               tag="router-link"
-              :to="{ path: '/workshops' }"
+              :to="{ path: '/myWorkshop' }"
             >
             </b-menu-item>
             <b-menu-item
@@ -57,7 +57,7 @@
               icon="account"
               label="Mi perfíl"
               tag="router-link"
-              :to="{ path: '/profile' }"
+              :to="{ path: '/admin/users/profile' }"
             >
             </b-menu-item>
           </b-menu-list>

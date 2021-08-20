@@ -1,6 +1,6 @@
-import { IWorkShopMember } from './workshopMember.model';
+
 import { BaseEntity } from '@/core/model/base.model';
-import { IWorkshopDay } from './workshopDay.model';
+import { WorkshopDay } from './workshopDay.model';
 export class WorkShop extends BaseEntity{
     name: string = "";
     description: string = "";

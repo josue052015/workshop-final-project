@@ -135,9 +135,9 @@ namespace GenericApi.Model.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2021, 8, 16, 3, 57, 47, 191, DateTimeKind.Unspecified).AddTicks(2594), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2021, 8, 19, 23, 9, 36, 114, DateTimeKind.Unspecified).AddTicks(4810), new TimeSpan(0, 0, 0, 0, 0)),
                             Deleted = false,
-                            Dob = new DateTime(2021, 8, 16, 5, 57, 47, 191, DateTimeKind.Local).AddTicks(3333),
+                            Dob = new DateTime(2021, 8, 20, 1, 9, 36, 114, DateTimeKind.Local).AddTicks(5673),
                             DocumentType = 0,
                             DocumentTypeValue = "00000000000",
                             Gender = 0,
@@ -224,8 +224,8 @@ namespace GenericApi.Model.Migrations
                     b.Property<DateTimeOffset?>("DeletedDate")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<TimeSpan?>("EndHour")
-                        .HasColumnType("time");
+                    b.Property<DateTimeOffset?>("EndHour")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<int>("Mode")
                         .HasColumnType("int");
@@ -233,8 +233,8 @@ namespace GenericApi.Model.Migrations
                     b.Property<string>("ModeLocation")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<TimeSpan>("StartHour")
-                        .HasColumnType("time");
+                    b.Property<DateTimeOffset>("StartHour")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("nvarchar(max)");

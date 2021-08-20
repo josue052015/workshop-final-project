@@ -13,6 +13,10 @@ const item = {
       component: () => import("../views/admin/users/add.vue")
     },
     {
+      path: "profile",
+      component: () => import("@/views/admin/users/myUser.vue")
+    },
+    {
         path: "edit/:id",
         component: () => import("../views/admin/users/edit.vue")
       }

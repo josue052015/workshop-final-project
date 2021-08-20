@@ -3,8 +3,8 @@ import VueRouter, { RouteConfig } from 'vue-router'
 import Home from '../views/Home.vue'
 import User from './user.router'
 import Workshops from './workshop.router'
-
-
+import Members from './workshopMember.router'
+import Days from './workshopDay.router'
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
@@ -21,8 +21,15 @@ const routes: Array<RouteConfig> = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
+  {
+    path: "/myWorkshop",
+    name: "MyWorkShop",
+    component : () => import("../views/admin/workshops/myWorkshops.vue")
+  },
   User,
-  Workshops
+  Workshops,
+  Members,
+  Days
 ]
 
 const router = new VueRouter({

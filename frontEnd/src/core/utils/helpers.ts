@@ -1,6 +1,6 @@
 import { BTableColumn } from "@/components/sx/sx-buefy-table/config";
 import moment from "moment";
-import { BTableColumnType, DocumentType, UserRole } from "./enums";
+import { BTableColumnType, DocumentType, UserRole, WeekDay, WorkShopDayMode, WorkShopMemberRole, } from "./enums";
 export default class Helpers {
   static MonthNames = [
     "Enero",
@@ -60,8 +60,22 @@ export default class Helpers {
     UserRole(val: UserRole) {
       return val === UserRole.ADMIN ? 'Administrador':'Usuario';
     },
+    WorkShopMemberRole(val: WorkShopMemberRole) {
+      return val === WorkShopMemberRole.TEACHER ? 'Profesor':'Estudiante';
+    },
     DocumentType(val: DocumentType) {
       return val === DocumentType.ID ? 'Cédula':'Pasaporte';
+    },
+    WeekDay(val: WeekDay) {
+      return val === WeekDay.MONDAY ? 'Lunes': 
+             val === WeekDay.TUESDAY ? 'Martes':
+             val === WeekDay.WEDNESDAY ? 'Miércoles':
+             val === WeekDay.THURSDAY ? 'Jueves':
+             val === WeekDay.FRIDAY ? 'Viernes':
+             val === WeekDay.SATURDAY ? 'Sábado': 'Domingo';
+    },
+    WorkShopDayMode(val: WorkShopDayMode) {
+      return val === WorkShopDayMode.ON_SITE ? 'Presencial':'Virtual';
     },
     Date(value: string, format = "L") {
       if (!value) return this.Empty;

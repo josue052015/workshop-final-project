@@ -16,6 +16,10 @@ const item = {
       path: "edit/:id",
       component: () => import("../views/admin/workshops/editWorkshop.vue")
     }
+   /*  {
+      path: "addMember",
+      component: () => import("../views/admin/members/addMember.vue")
+    }, */
      
   ],
 } as RouteConfig;

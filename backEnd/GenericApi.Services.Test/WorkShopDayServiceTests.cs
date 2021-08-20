@@ -29,10 +29,10 @@ namespace GenericApi.Services.Tests
             //Arrange
             var requestDto = new WorkShopDayDto
             {
-                Day = (Core.Enums.WeekDay) 2,
-                Mode = (Core.Enums.WorkShopDayMode) 1,
+                Day = (Core.Enums.WeekDay)2,
+                Mode = (Core.Enums.WorkShopDayMode)1,
                 ModeLocation = "(MS Teams - https://bit.ly/3wE024J)",
-                StartHour = new TimeSpan(3, 0, 0),
+             //   StartHour = new DateTimeOffset(3, 0, 0),
                 EndHour = null,
                 WorkShopId = 1
             };
@@ -67,7 +67,7 @@ namespace GenericApi.Services.Tests
                 Day = (Core.Enums.WeekDay) 3,
                 Mode = (Core.Enums.WorkShopDayMode) 1,
                 ModeLocation = "(MS Teams - https://bit.ly/3wE024J)",
-                StartHour = new TimeSpan(3, 0, 0),
+             //   StartHour = new DateTimeOffset(3, 0, 0),
                 EndHour = null,
                 WorkShopId = 1
             };

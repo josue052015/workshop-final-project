@@ -1,14 +1,14 @@
 import { WeekDay, WorkShopDayMode } from './../utils/enums';
-import { IBaseEntity } from "./base.model";
+import { BaseEntity } from "./base.model";
 import { WorkShop } from './workshop.model';
 
-export interface IWorkshopDay extends IBaseEntity {
-    day: WeekDay;
-    mode: WorkShopDayMode;
-    modeLocation: string;
-    startHour: string;
-    endHour: string | null;
-    workShopId: number;
-    workShop: WorkShop;
+export class WorkshopDay extends BaseEntity {
+    day: WeekDay = WeekDay.MONDAY;
+    mode: WorkShopDayMode = WorkShopDayMode.ON_SITE;
+    modeLocation: string = "";
+    startHour?:  Date | null = null;
+    endHour?:  Date | null = null;
+    workShopId?: number | null;
+    workShop?: WorkShop;
 }
 

@@ -1,12 +1,12 @@
 import { WorkShopMemberRole } from "../utils/enums";
-import { IBaseEntity } from "./base.model";
+import { BaseEntity, IBaseEntity } from "./base.model";
 import { User } from "./user.model";
 import { WorkShop } from "./workshop.model";
 
-export interface IWorkShopMember extends IBaseEntity {
-    role: WorkShopMemberRole;
-    workShopId: number;
-    workShop: WorkShop;
-    userId: number;
-    user: User;
+export class WorkShopMember extends BaseEntity {
+    role: WorkShopMemberRole = WorkShopMemberRole.TEACHER;
+    workShopId?: number | null;
+    workShop?: WorkShop;
+    userId?: number | null;
+    user?: User;
 }
