@@ -37,7 +37,7 @@
           <div class="media-content">
             <p class="title is-6">
               <b-tooltip label="Perfil no disponible">
-                <a class="has-text-link cursor-ban">{{ row.name }}</a>
+                <a class="has-text-link cursor-ban" tag = "router-link" :href="'/admin/workshops/details/' + row.id">{{ row.name }}</a>
               </b-tooltip>
             </p>
           </div>

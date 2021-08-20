@@ -1,3 +1,4 @@
+import { WorkShopDayService } from './workshopDay.service';
 import { WorkShopMemberService } from './workshopMember.service';
 import { BaseService } from "./base.service";
 import { FileService } from "./file.service";
@@ -8,5 +9,6 @@ export {
     FileService,
     UserService,
     IUserService,
-    WorkShopMemberService
+    WorkShopMemberService,
+    WorkShopDayService
 }

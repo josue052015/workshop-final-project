@@ -13,7 +13,7 @@
               <div class="media-content">
                 <p class="title is-40">{{ element.name }}</p>
                 <p class="title is-6">
-                  Creado por: {{ element.createdBy }}@emmanuel
+                  Creado por: {{ element.createdBy }}@Pedro
                 </p>
               </div>
             </div>
